@@ -1,0 +1,23 @@
+/*
+题目描述
+每个人都想成为大V (VIP：Very Important Person)，但要一点一点积累才行，先从小v做起。要求输出由小写字母v组成的大V。
+输入描述:
+无
+输出描述:
+v    v
+ v  v
+  v
+ */
+ 
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"v"<<"   "<<"v"<<endl;      //中间四个空格
+    cout<<" "<<"v"<<" "<<"v"<<endl;   //前面两个空格，中间两个空格
+    cout<<"  "<<"v"<<endl;         //前面三个空格
+    return 0;
+}
+ 
+ 
